@@ -51,6 +51,7 @@ And the following with temperature of 0.48:
 ### Problem
 
 As it can be seen above even the temperature of 0.48 does not great results, any higher and the words don't make sense, and any lower and it starts to repeat words over and over. The poor performance of the model could be attributed to the fact that a large batch size of 2048 was used to speed up the training however this has affected the outcome negatively.  
+
 To fix this, a new model was trained with a lower batch size of 64 however to speed up the training of the model only a subsection of the full ERV Bible was used, only the Genesis section was used to train the model. Even at a temperature of 0.7 the model is making more sense than previously as seen below:  
     `Jesus 27:2	And the thing were seven God him for his wife shall be called your with us after their father, saying, The dest of the goods in the day of the land unto the people, of my lord’s bought of the captain of all the earth, and the servant be such an hundred and five your every sur, and hand the flocks of my father’s house, and had not concening unto my lord in the land of Egypt, and and their children of Isreee in the dield.
     Genesis 17:2	And Adam kene to the cattle and the days of the servant Joseph was from the king of the gardent of the place, and his faces which he had served between my head, and ars of the land of Egypt.
