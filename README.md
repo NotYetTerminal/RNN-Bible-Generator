@@ -33,6 +33,7 @@ The following procedure is used in the RNN Jupyter Notebook ([Ipynb](Notebooks/r
 
 8. After the model is finished the latest checkpoint is loaded and the batch size of the model is changed to 1 to allow for inputting characters one at a time.
 9. The generate text function is then used to generate new text using different amounts for the temperature.  
+
 The following text was created using temperature of 1:  
     `Jesus: 55	OL	O0	Affrith in the dard offremen; ind uplahninad; atder fas wis sonctoop this that tron whines the wall ond noupe of merin; and thao shill youg? ind to doelt, they foreded: Jecoughous int thears of Saroms.
     Mout 115:2	As upeint inatianf of the brangstrongsh of foo them becess comne has cwater.
